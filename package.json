@@ -1,0 +1,14 @@
+{
+  "name": "maplib",
+  "version": "1.0.0",
+  "description": "Support library for grid and hex based map systems",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rm -fr bin && tsc"
+  },
+  "author": "sirgzu@hotmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.1.5"
+  }
+}
