@@ -1,3 +1,3 @@
-console.log("Hello World");
+import { foo } from "./foo";
 
-export const foo = "bar";
+console.log("Hello World", foo);

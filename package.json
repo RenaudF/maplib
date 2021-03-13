@@ -2,7 +2,10 @@
   "name": "maplib",
   "version": "1.0.0",
   "description": "Support library for grid and hex based map systems",
-  "main": "src/index.ts",
+  "files": [
+    "bin"
+  ],
+  "main": "bin/index.js",
   "scripts": {
     "build": "rm -fr bin && tsc"
   },
